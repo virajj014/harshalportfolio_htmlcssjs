@@ -1,0 +1,115 @@
+.outer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #00c4cc 0%, #7c2ae8 100%);
+    background-repeat: no-repeat;
+}
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 90vh;
+    margin: 50px;
+}
+
+.s1 h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 600;
+
+}
+
+.projcard {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.projcard-img {
+    background-color: white;
+    min-width: 450px;
+    max-width: 450px;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px rgb(73, 73, 73);
+}
+
+.projcard-img img {
+    width: 90%;
+    /* height: 168px; */
+}
+
+.projcard-content {
+    width: 350px;
+    padding: 10px;
+    height: 170px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projcard-content p {
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.btn-cont {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.btn-cont button {
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
+
+.btn-cont button a {
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+
+
+.greenbg {
+    background-color: #0AD6A0;
+}
+
+.yellowbg {
+    background-color: #FFD51E;
+}
+
+.redbg {
+    background-color: #FF5757;
+    color: white;
+}
+
+
+
+
+.card-outer-left {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+}
+
+.card-outer-right {
+    width: 90%;
+    display: flex;
+    justify-content: right;
+}

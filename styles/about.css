@@ -1,0 +1,99 @@
+.outer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, #00ffff 0%, #00ff99 100%);
+    background-repeat: no-repeat;
+}
+
+.s1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.s1 h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.s1-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s1-inner p {
+    width: 40%;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.s2 {
+    background-color: black;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s2 h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.s2-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+}
+
+.s2-card {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid grey;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.s2-card p {
+    font-size: 20px;
+}
+
+.s2-card .spanwhite {
+    color: white;
+}
+
+.spancolor1 {
+    color: #00ff99;
+}
+
+.spancolor2 {
+    color: yellow;
+}
+
+.spancolor3 {
+    color: rgb(255, 67, 67);
+}
+
+.spancolor4 {
+    color: #00ffff;
+}
+
+.spancolor5 {
+    color: greenyellow;
+}
+
+.spancolor6 {
+    color: orange;
+}

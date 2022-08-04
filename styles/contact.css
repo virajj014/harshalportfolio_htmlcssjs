@@ -1,0 +1,98 @@
+.outer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top right, #6600ff 0%, #9900cc 100%);
+
+    background-repeat: no-repeat;
+}
+
+.contact_outer {
+    width: 100%;
+    /* position: absolute; */
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+}
+
+.contact_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.contact_innermost {
+    display: flex;
+    flex-direction: row;
+    /* padding: 30px; */
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    /* width: 500px; */
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_inner form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact_inner form input,
+.contact_inner form textarea {
+    background-color: rgb(221, 186, 255);
+    color: gray;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    font-weight: 700;
+}
+
+.contact_inner form textarea {
+    min-height: 150px;
+}
+
+.contact_inner form button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+}
+
+.contact_inner form button:hover {
+    cursor: pointer;
+    transition: 1s all;
+    background-color: black;
+}
+
+
+.contact_inner form p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: blueviolet;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.contact_inner p {
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+}

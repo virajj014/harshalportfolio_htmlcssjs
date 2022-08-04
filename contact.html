@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshal Jain | Contact</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="icon" type="image/x-icon" href="/Media/favicon.png">
+    <link rel="stylesheet" href="/styles/contact.css">
+</head>
+
+
+<body class="outer">
+    <div class="navbar">
+        <div class="nav-left">
+            <img src="/Media/logowhite.png" />
+        </div>
+        <div class="nav-center">
+            <a href="/index.html" class="inactive-nav">Home</a>
+            <a href="/about.html" class="inactive-nav">About</a>
+            <a href="/projects.html" class="inactive-nav">Projects</a>
+            <a href="/skills.html" class="inactive-nav">Skills</a>
+            <a href="/contact.html" class="active-nav">Contact</a>
+        </div>
+
+        <div class="nav-right">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
+                <span>Resume</span>
+            </button>
+        </div>
+    </div>
+    <div class="contact_outer" }>
+        <div class="contact_inner">
+            <p>Contact Me</p>
+            <div class="contact_innermost">
+                <div class="img">
+                    <Image src='/Media/contactuspic.png' />
+                </div>
+                <form onSubmit={sendEmail}>
+                    <p>Get in touch</p>
+                    <input name='user_name' placeholder='Name' />
+                    <input name='user_email' placeholder='Email' />
+                    <textarea name='message' placeholder='Message'></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
